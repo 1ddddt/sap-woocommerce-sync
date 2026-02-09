@@ -1,0 +1,259 @@
+/**
+ * SAP WooCommerce Sync v2.0 - Admin Styles
+ */
+
+/* Status Cards */
+.sap-wc-status-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.sap-wc-card {
+    flex: 1;
+    min-width: 120px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
+}
+
+.sap-wc-card h3 {
+    margin: 0 0 8px;
+    font-size: 12px;
+    color: #646970;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sap-wc-stat {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2271b1;
+    margin: 0;
+}
+
+/* Quick Actions */
+.sap-wc-actions {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.sap-wc-actions h2 {
+    margin-top: 0;
+}
+
+.sap-wc-actions .button {
+    margin-right: 8px;
+}
+
+/* Action Results */
+.sap-wc-result {
+    margin-top: 12px;
+    padding: 12px 15px;
+    border-radius: 4px;
+    display: none;
+}
+
+.sap-wc-result.success {
+    background: #ecf7ed;
+    border-left: 4px solid #46b450;
+    color: #1e7e34;
+    display: block;
+}
+
+.sap-wc-result.error {
+    background: #fef0f0;
+    border-left: 4px solid #dc3232;
+    color: #b32d2e;
+    display: block;
+}
+
+.sap-wc-result.loading {
+    background: #f0f6fc;
+    border-left: 4px solid #2271b1;
+    color: #2271b1;
+    display: block;
+}
+
+/* Progress Bar */
+.sap-wc-progress-container {
+    margin: 15px 0;
+    display: none;
+}
+
+.sap-wc-progress-bar {
+    width: 100%;
+    height: 24px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sap-wc-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2271b1, #3582c4);
+    transition: width 0.3s ease;
+    border-radius: 4px;
+}
+
+.sap-wc-progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+/* Status Badges */
+.sap-wc-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.sap-wc-status-synced { background: #ecf7ed; color: #1e7e34; }
+.sap-wc-status-pending { background: #fff4cc; color: #8a6d3b; }
+.sap-wc-status-error { background: #fef0f0; color: #b32d2e; }
+.sap-wc-status-unmapped { background: #f0f0f0; color: #646970; }
+.sap-wc-status-success { background: #ecf7ed; color: #1e7e34; }
+.sap-wc-status-warning { background: #fff4cc; color: #8a6d3b; }
+.sap-wc-status-info { background: #e5f5fa; color: #00a0d2; }
+
+/* Products Table */
+.sap-wc-products .wp-list-table th,
+.sap-wc-products .wp-list-table td {
+    vertical-align: middle;
+}
+
+.sap-wc-products .wp-list-table code {
+    font-size: 11px;
+    padding: 2px 5px;
+    background: #f6f7f7;
+    border-radius: 3px;
+    max-width: 120px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Filters */
+.sap-wc-filters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.sap-wc-filters select {
+    min-width: 120px;
+}
+
+/* Legend */
+.sap-wc-legend {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.sap-wc-legend h4 {
+    margin-top: 0;
+}
+
+.sap-wc-legend ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.sap-wc-legend li {
+    padding: 4px 0;
+    font-size: 13px;
+}
+
+/* Logs */
+.sap-wc-sync-logs .sap-wc-log-count {
+    color: #646970;
+    font-style: italic;
+}
+
+/* Sortable headers */
+.wp-list-table th a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wp-list-table th a:hover {
+    color: #2271b1;
+}
+
+/* Manual Map Modal */
+.sap-wc-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sap-wc-modal {
+    background: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    min-width: 400px;
+    max-width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sap-wc-modal h3 {
+    margin-top: 0;
+}
+
+.sap-wc-modal .button {
+    margin-right: 8px;
+}
+
+/* Retry button */
+.sap-wc-retry-order:disabled,
+.sap-wc-retry-dead-letter:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .sap-wc-status-cards {
+        gap: 8px;
+    }
+    .sap-wc-card {
+        min-width: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sap-wc-status-cards {
+        flex-direction: column;
+    }
+    .sap-wc-card {
+        min-width: auto;
+    }
+}

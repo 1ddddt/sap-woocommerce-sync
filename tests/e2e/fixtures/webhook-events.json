@@ -1,0 +1,91 @@
+{
+    "itemCreated": {
+        "event_type": "item.created",
+        "data": {
+            "ItemCode": "BK-NEW-001",
+            "ItemName": "Brand New Book Title",
+            "BarCode": "9781234567890",
+            "ItemBarCodeCollection": [
+                { "Barcode": "9781234567890" }
+            ]
+        }
+    },
+    "itemUpdated": {
+        "event_type": "item.updated",
+        "data": {
+            "ItemCode": "BK-001",
+            "ItemName": "The Great Gatsby - Updated Edition",
+            "BarCode": "9780743273565"
+        }
+    },
+    "itemStockChanged": {
+        "event_type": "item.stock_changed",
+        "data": {
+            "ItemCode": "BK-001"
+        }
+    },
+    "itemCodeChanged": {
+        "event_type": "item.code_changed",
+        "data": {
+            "OldItemCode": "BK-001",
+            "NewItemCode": "BK-001-V2"
+        }
+    },
+    "itemDeactivated": {
+        "event_type": "item.deactivated",
+        "data": {
+            "ItemCode": "BK-INACTIVE"
+        }
+    },
+    "itemReturned": {
+        "event_type": "item.returned",
+        "data": {
+            "ItemCode": "BK-001"
+        }
+    },
+    "orderPlaced": {
+        "event_type": "order.placed",
+        "data": {
+            "order_id": 0
+        }
+    },
+    "orderStatusChanged": {
+        "event_type": "order.status_changed",
+        "data": {
+            "DocEntry": 1000,
+            "Status": "C"
+        }
+    },
+    "orderCancelled": {
+        "event_type": "order.cancelled",
+        "data": {
+            "DocEntry": 1000
+        }
+    },
+    "orderDelivered": {
+        "event_type": "order.delivered",
+        "data": {
+            "order_id": 0,
+            "sap_doc_entry": 1000
+        }
+    },
+    "orderRefunded": {
+        "event_type": "order.refunded",
+        "data": {
+            "order_id": 0,
+            "refund_id": 0,
+            "sap_doc_entry": 1000
+        }
+    },
+    "unknownEvent": {
+        "event_type": "unknown.event",
+        "data": {
+            "foo": "bar"
+        }
+    },
+    "missingEventType": {
+        "data": {
+            "foo": "bar"
+        }
+    }
+}

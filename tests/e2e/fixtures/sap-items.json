@@ -1,0 +1,146 @@
+[
+    {
+        "ItemCode": "BK-001",
+        "ItemName": "The Great Gatsby",
+        "BarCode": "9780743273565",
+        "Valid": "tYES",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9780743273565", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 150,
+                "Committed": 10,
+                "Ordered": 0,
+                "Counted": 0
+            }
+        ]
+    },
+    {
+        "ItemCode": "BK-002",
+        "ItemName": "To Kill a Mockingbird",
+        "BarCode": "9780446310789",
+        "Valid": "tYES",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9780446310789", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 200,
+                "Committed": 25,
+                "Ordered": 0,
+                "Counted": 0
+            }
+        ]
+    },
+    {
+        "ItemCode": "BK-003",
+        "ItemName": "1984 by George Orwell",
+        "BarCode": "9780451524935",
+        "Valid": "tYES",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9780451524935", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 75,
+                "Committed": 5,
+                "Ordered": 0,
+                "Counted": 0
+            }
+        ]
+    },
+    {
+        "ItemCode": "BK-004",
+        "ItemName": "Pride and Prejudice",
+        "BarCode": "9780141439518",
+        "Valid": "tYES",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9780141439518", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 50,
+                "Committed": 0,
+                "Ordered": 20,
+                "Counted": 0
+            }
+        ]
+    },
+    {
+        "ItemCode": "BK-005",
+        "ItemName": "The Catcher in the Rye",
+        "BarCode": "9780316769488",
+        "Valid": "tYES",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9780316769488", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 0,
+                "Committed": 0,
+                "Ordered": 0,
+                "Counted": 0
+            }
+        ]
+    },
+    {
+        "ItemCode": "BK-006",
+        "ItemName": "Harry Potter and the Philosopher's Stone",
+        "BarCode": "9780747532743",
+        "Valid": "tYES",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9780747532743", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 500,
+                "Committed": 45,
+                "Ordered": 0,
+                "Counted": 0
+            }
+        ]
+    },
+    {
+        "ItemCode": "BK-007",
+        "ItemName": "The Lord of the Rings",
+        "BarCode": "9780618640157",
+        "Valid": "tYES",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9780618640157", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 80,
+                "Committed": 12,
+                "Ordered": 0,
+                "Counted": 0
+            }
+        ]
+    },
+    {
+        "ItemCode": "BK-INACTIVE",
+        "ItemName": "Discontinued Book Title",
+        "BarCode": "9999999999999",
+        "Valid": "tNO",
+        "ItemBarCodeCollection": [
+            { "Barcode": "9999999999999", "UoMEntry": 1 }
+        ],
+        "ItemWarehouseInfoCollection": [
+            {
+                "WarehouseCode": "WEB-GEN",
+                "InStock": 0,
+                "Committed": 0,
+                "Ordered": 0,
+                "Counted": 0
+            }
+        ]
+    }
+]

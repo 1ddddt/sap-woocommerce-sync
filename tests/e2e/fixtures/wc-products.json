@@ -1,0 +1,72 @@
+{
+    "skuMatch": {
+        "name": "Test Product - SKU Match",
+        "type": "simple",
+        "sku": "BK-001",
+        "regular_price": "12.99",
+        "manage_stock": true,
+        "stock_quantity": 100,
+        "status": "publish",
+        "description": "Product with SKU matching SAP ItemCode BK-001"
+    },
+    "barcodeMatch": {
+        "name": "Test Product - Barcode Match",
+        "type": "simple",
+        "sku": "9780446310789",
+        "regular_price": "14.99",
+        "manage_stock": true,
+        "stock_quantity": 50,
+        "status": "publish",
+        "description": "Product with SKU matching SAP barcode for BK-002"
+    },
+    "exactNameMatch": {
+        "name": "1984 by George Orwell",
+        "type": "simple",
+        "sku": "",
+        "regular_price": "9.99",
+        "manage_stock": true,
+        "stock_quantity": 30,
+        "status": "publish",
+        "description": "Product with exact title match to SAP item BK-003"
+    },
+    "fuzzyNameMatch": {
+        "name": "Pride & Prejudice - Jane Austen",
+        "type": "simple",
+        "sku": "",
+        "regular_price": "11.99",
+        "manage_stock": true,
+        "stock_quantity": 20,
+        "status": "publish",
+        "description": "Product with fuzzy title match to SAP item BK-004"
+    },
+    "noMatch": {
+        "name": "Completely Unique Product Title XYZ",
+        "type": "simple",
+        "sku": "NO-MATCH-SKU",
+        "regular_price": "19.99",
+        "manage_stock": true,
+        "stock_quantity": 10,
+        "status": "publish",
+        "description": "Product that should not match any SAP item"
+    },
+    "forInventorySync": {
+        "name": "Test Product - Inventory Sync",
+        "type": "simple",
+        "sku": "BK-006",
+        "regular_price": "24.99",
+        "manage_stock": true,
+        "stock_quantity": 999,
+        "status": "publish",
+        "description": "Pre-mapped product for inventory sync testing"
+    },
+    "forOrderTest": {
+        "name": "Test Product - Order Test",
+        "type": "simple",
+        "sku": "BK-007",
+        "regular_price": "29.99",
+        "manage_stock": true,
+        "stock_quantity": 50,
+        "status": "publish",
+        "description": "Product for order creation E2E test"
+    }
+}

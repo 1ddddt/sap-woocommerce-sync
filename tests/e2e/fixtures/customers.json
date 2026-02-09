@@ -1,0 +1,18 @@
+[
+    {
+        "CardCode": "WC_e2etest00001",
+        "CardName": "Test Customer",
+        "CardType": "cCustomer",
+        "EmailAddress": "test@example.com",
+        "Phone1": "1234567890",
+        "Series": 91
+    },
+    {
+        "CardCode": "WC_e2etest00002",
+        "CardName": "Prepaid Customer",
+        "CardType": "cCustomer",
+        "EmailAddress": "prepaid@example.com",
+        "Phone1": "0987654321",
+        "Series": 91
+    }
+]

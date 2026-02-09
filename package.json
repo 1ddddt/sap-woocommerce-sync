@@ -1,0 +1,25 @@
+{
+  "name": "sap-wc-sync-v2-e2e",
+  "version": "2.0.0",
+  "description": "E2E tests for SAP WooCommerce Sync v2 plugin",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand --forceExit",
+    "test:headed": "HEADLESS=false jest --runInBand --forceExit",
+    "test:verbose": "jest --runInBand --forceExit --verbose",
+    "test:spec": "jest --runInBand --forceExit --testPathPattern",
+    "mock:start": "node tests/e2e/helpers/sap-mock-server.js",
+    "setup:wp": "node tests/e2e/setup/provision-wp.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "puppeteer": "^21.5.0",
+    "dotenv": "^16.3.1"
+  }
+}
